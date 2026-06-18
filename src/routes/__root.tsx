@@ -95,6 +95,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "TaskMind — AI Productivity Assistant" },
+      { name: "description", content: "TaskMind AI Assistant is a web app that streamlines workplace productivity with AI-powered tools." },
+      { property: "og:description", content: "TaskMind AI Assistant is a web app that streamlines workplace productivity with AI-powered tools." },
+      { name: "twitter:description", content: "TaskMind AI Assistant is a web app that streamlines workplace productivity with AI-powered tools." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/75a48cb5-a1c8-4f88-a482-251feb53dbf4/id-preview-0d8f2ebd--576cb441-e126-47e9-9e78-292b14e6bc65.lovable.app-1781768338472.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/75a48cb5-a1c8-4f88-a482-251feb53dbf4/id-preview-0d8f2ebd--576cb441-e126-47e9-9e78-292b14e6bc65.lovable.app-1781768338472.png" },
     ],
     links: [
       {
